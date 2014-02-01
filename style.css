@@ -1,0 +1,117 @@
+/*
+Theme Name:     Twenty Twelve Child
+Theme URI:      http://kpcevents.com/
+Description:    Child theme for the Twenty Twelve theme
+Author:         Mesha Lockett
+Author URI:     http://meshalockett.com
+Template:       twentytwelve                             
+Version:        0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+#colophon {
+    text-align:center;
+}
+
+.site {
+	border-radius: 25px;
+	clear: both;
+	overflow: hidden;
+	padding: 40px 0 0 0;
+	border: 10px solid #663292;
+	width: 790px;
+	}
+
+.site-content {
+	margin: 0px 10px 0px 0px;
+	}
+
+.entry-content {
+		margin: 15px;
+	}
+	
+.site-header {
+		padding: 0px;
+		overflow: visible;
+
+}
+	
+	
+body {
+	background-image: url('http://localhost/kpc_events/wordpress/wp-content/uploads/2013/07/h-flowers.png'), url('http://localhost/kpc_events/wordpress/wp-content/uploads/2013/07/kpc-pattern.png');
+	background-repeat:  no-repeat,repeat;
+	background-position: left top, center;
+	}
+	
+.main-navigation li a { color:#663292;
+					
+				
+}
+
+#menu-main-menu li a { color:#663292;
+					font-family: "Dancing+Script", Tangerine;
+					font-size: 34px;
+					text-transform:none;
+					line-height: 1em;
+				
+}
+
+#menu-main-menu li a:hover {
+					color: #4aa8be;
+}
+
+.main-navigation {
+					margin-top: 0px;
+}
+
+
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .main-navigation .current_page_item > a, .main-navigation .current_page_ancestor > a{
+			color: #dd597c;
+			
+}
+
+.site-header h1, .site-header h2 {
+			text-align: center;
+}
+
+.site-header h1 a, .site-header h2 a {
+			color: #dd597c;
+}
+
+.site-header h1 a:hover, .site-header h2 a:hover {
+			color: #4aa8be;
+}
+
+.site-header h1{ 
+		font-size: 45px;
+
+}
+
+
+/*naviation*/
+
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+			text-align: center;
+			border-bottom: none;
+			border-top: none;
+			
+			}
+/*kpc logo*/
+
+.site-header hgroup { display: none; }
+.site-logo { max-width: 100%; height:auto; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
